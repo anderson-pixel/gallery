@@ -30,4 +30,60 @@ body {
     background-color: #ff66d5;
     border-radius: 20px;
     border: 3px solid #2c6e79;
+}
+
+.header h1{
+    text-align: center;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.5em;
+    font-family: 'Permanent Marker';
+	margin-bottom: 15px;
+  color: transparent;
   }
+
+  .header p {
+    text-align: center;
+      background: white;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+      font-size: 20px;
+  }
+
+.grid-item {
+  display: inline-block;
+    height: 259px;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+.grid-item img{
+	width:100%;
+	height:auto;
+	filter: url(filters.svg#grayscale);
+    filter: white;
+    -webkit-filter: grayscale(1);
+    transition: 0.2s;
+}
+.grid-item img:hover{
+    filter: none;
+}
+
+.isotope-pager .pager {
+  display: inline-block;
+}
+.filters {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 35px;
+	padding-top:20px;
+}
+
+.filters ul {
+	list-style: none;
+  
+    border-radius: 30px;
+	background-color: #2c6e79;
+}
