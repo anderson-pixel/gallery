@@ -10,7 +10,7 @@ $(document).ready( function() {
 		}
 	});
 
-	//Ascending order
+	
 	var responsiveIsotope = [
 		[480, 7],
 		[720, 10]
@@ -110,7 +110,7 @@ $(document).ready( function() {
 	setPagination();
 	goToPage(1);
 
-	//Adicionando Event de Click para as categorias
+	
 	$('.filters a').click(function(){
 		var filter = $(this).attr(filterAtribute);
 		currentFilter = filter;
@@ -121,7 +121,7 @@ $(document).ready( function() {
 
 	});
 
-	//Evento Responsivo
+	
 	$(window).resize(function(){
 		itemsPerPage = defineItemsPerPage();
 		setPagination();
@@ -135,7 +135,7 @@ $(document).ready( function() {
 
  $(document).ready( function() {   
 
-// filter items on button click
+
 $('.filter-button-group').on( 'click', 'li', function() {
   var filterValue = $(this).attr('data-filter');
   $('.grid').isotope({ filter: filterValue });
@@ -147,7 +147,7 @@ $('.filter-button-group').on( 'click', 'li', function() {
 
  $(document).ready( function() {   
 
-// filter items on button click
+
 $('.isotope-pager').on( 'click', 'a', function() {
   var filterValue = $(this).attr('data-page');
 
@@ -174,8 +174,8 @@ $('.popupimg').magnificPopup({
   zoom: {
     enabled: true, 
 
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function
+    duration: 300,
+    easing: 'ease-in-out', 
 
     opener: function(openerElement) {
 

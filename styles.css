@@ -125,13 +125,10 @@ body {
   margin: 6px 1px;
   display: inline-block;
   width: 50px;
-  /* height: 60px; */
   line-height: 31px;
   color: white;
   font-weight: 600;
   transition: 0.3s;
-  /* position: relative; */
-  /* padding-right: 26px; */
   box-shadow: -1px 1px 11px rgba(0,0,0,.1);
   border-radius: 25px;
   background-color: #0077b6;
@@ -177,6 +174,41 @@ body {
   right: 0;
 }
 
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
 
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.footer {
+  text-align: center;
+	margin-top: 20px;
+}
+.footer  p {
+    color: #FFF;
+    letter-spacing: 1px;
+}
+.footer p a {
+    color: #fff;
+}
+.footer p a:hover {
+    color: #fff;
+	text-decoration:none;
+}
 
 
