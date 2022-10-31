@@ -6,3 +6,28 @@ body {
 #container {
   margin: auto;
 }
+
+
+// scrollbar made with https://codepen.io/stephenpaton-tech/full/JjRvGmY
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff66d5 #2c6e79;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2c6e79;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ff66d5;
+    border-radius: 20px;
+    border: 3px solid #2c6e79;
+  }
