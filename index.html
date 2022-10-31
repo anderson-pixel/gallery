@@ -1,7 +1,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Wholesome Gallery</title>
+  <title>Portfolio Gallery Filter With Pagination Responsive</title>
   <link rel="stylesheet" href="./styles.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
@@ -9,22 +9,136 @@
 
 </head>
 <body>
-    <div class="header">
-    	<h1>Wholesome Gallery</h1>
+
+<!--title-->
+	<div class="header">
+    	<h1> Wholesome <span class="magic"> Gallery </span></h1>
         <p>a gallery filled with cute pictures to make your day a little brighter</p>
     </div>
-    <div class="filters filter-button-group">
-        <ul>
-            <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
-            <li><a href="javascript:void(0);" data-filter="cats">Cats</a></li>
-            <li><a href="javascript:void(0);" data-filter="dogs">Dogs</a></li>
-            <li><a href="javascript:void(0);" data-filter="other">Other</a></li>
-        </ul>
-    </div>
-    <div id="container" class="isotope">
+<!--title-->
+
+<div class="filters filter-button-group">
+	<ul>
+		<li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+		<li><a href="javascript:void(0);" data-filter="cats">Cats</a></li>
+		<li><a href="javascript:void(0);" data-filter="dogs">Dogs</a></li>
+        <li><a href="javascript:void(0);" data-filter="other">Other</a></li>
+	</ul>
+</div>
+	<div id="container" class="isotope">
+    
+		<div class="grid-item" data-filter="cats">
+        <a class="popupimg" href="./images/cute-kit3.jpg">
+        <img src="./images/cute-kit3.jpg">
+        </a>
+        </div>
         
-    </div>
         
-<script src='script.js'></script>
+        <div class="grid-item" data-filter="dogs">
+        <a class="popupimg" href="./images/cute-pup2.jpg">  
+        <img src="./images/cute-pup2.jpg">
+        </a>
+        </div>
+
+        <div class="grid-item" data-filter="dogs">
+        <a class="popupimg" href="./images/cute-pup1.png">  
+        <img src="./images/cute-pup1.png">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="cats">
+        <a class="popupimg" href="./images/cute-kit1.jpg">
+        <img src="./images/cute-kit1.jpg">
+        </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="cats">
+        <a class="popupimg" href="./images/cute-kit2.jpg">
+        <img src="./images/cute-kit2.jpg">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="cats">
+        <a class="popupimg" href="./images/cute-kit4.jpg">
+        <img src="./images/cute-kit4.jpg">
+        </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="dogs">
+        <a class="popupimg" href="./images/cute-pup3.png">
+        <img src="./images/cute-pup3.png">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="dogs">
+        <a class="popupimg" href="./images/cute-pup4.jpg">
+        <img src="./images/cute-pup4.jpg">
+        </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/bear.jpg">
+        <img src="./images/bear.jpg">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/cheeto.jpg">
+        <img src="./images/cheeto.jpg">
+        </a>
+        </div>
+        
+		<div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/rabbit.jpg">
+        <img src="./images/rabbit.jpg">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/seal.jpg">
+        <img src="./images/seal.jpg">
+        </a>
+        </div>
+        
+        
+        <div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/panda.jpg">
+        <img src="./images/panda.jpg">
+        </a>
+        </div>
+        
+        
+		<div class="grid-item" data-filter="other">
+        <a class="popupimg" href="./images/fox.jpg">
+        <img src="./images/fox.jpg">
+        </a>
+        </div>
+		
+
+	</div>
+    
+    <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
+        </div>
+    
+    <!-- footer -->
+			<div class="footer">
+				<p><script>document.write(new Date().getFullYear());</script> Made By <a href="https://github.com/anderson-pixel" target="_blank">Anderson Pereira</a> </p>
+			</div>	
+<!-- //footer -->
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
