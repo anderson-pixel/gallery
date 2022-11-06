@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(#0077b6, #ff5d8f);
+  background: linear-gradient(rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
 	font-family: 'Permanent Marker', sans-serif;
 	margin: 0; 
 }
