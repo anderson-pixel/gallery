@@ -1,5 +1,5 @@
 body {
-	background: #0077b6;
+	background: linear-gradient(#0077b6, #ff5d8f);
 	font-family: 'Permanent Marker', sans-serif;
 	margin: 0; 
 }
@@ -86,9 +86,7 @@ body {
 
 .filters ul {
 	list-style: none;
-  
     border-radius: 30px;
-	background-color: #0077b6;
 }
 
 .filters li {
